@@ -1,5 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap);
 
 
 
@@ -9,12 +9,12 @@ body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-family: 'Great Vibes', handwriting;
+  font-size: 5.6rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 8.96rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -33,7 +33,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Great Vibes', handwriting;
   font-size: 1.4rem;
   font-display: swap;
 }
@@ -55,9 +55,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 4.48rem;
+    font-size: calc( 2.61rem + (5.6 - 2.61) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.61rem + (5.6 - 2.61) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -1119,6 +1119,9 @@ section.lazy-placeholder:after {
 .cid-rWllNz6qiH .dropdown-item:hover {
   color: #767676 !important;
 }
+.cid-rWlnRW2bjv H1 {
+  color: #ffffff;
+}
 .cid-rWm9IpCOLT {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1235,6 +1238,9 @@ section.lazy-placeholder:after {
   .cid-rWm5yvX5d7 .card:not(.last-child) {
     padding-bottom: 2rem;
   }
+}
+.cid-rWm5yvX5d7 H2 {
+  text-align: center;
 }
 .cid-rWm75kXedG {
   padding-top: 60px;
